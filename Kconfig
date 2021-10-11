@@ -189,6 +189,12 @@ menu "LVGL configuration"
                 default n
         endmenu
 
+
+        menu "QR Code"
+            config LV_USE_QRCODE
+                bool "Enable extra QR code third-party component."
+        endmenu
+
         menu "Logging"
             config LV_USE_LOG
                 bool "Enable the log module"
